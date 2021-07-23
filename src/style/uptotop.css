@@ -1,0 +1,27 @@
+/*========== SCROLL UP ==========*/
+.scrollup {
+  background: #f12711; /* fallback */
+  background: linear-gradient(to bottom, #f12711, #f5af19);
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  opacity: 0.7;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: 10;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.scrollup__icon {
+  color: #fff;
+  font-size: 2rem;
+}
+/* Show scroll */
+.show-scroll {
+  bottom: 5rem;
+}

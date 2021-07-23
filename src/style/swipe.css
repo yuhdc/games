@@ -1,0 +1,33 @@
+.swiper-button-prev,
+.swiper-button-next {
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  z-index: 200;
+  font-weight: 200;
+}
+.swiper-button-prev {
+  left: 1%;
+}
+.swiper-button-next {
+  right: 1%;
+}
+
+:root {
+  --swiper-theme-color: linear-gradient(to right, #f5af19, #f12711);
+}
