@@ -3,7 +3,6 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -17,6 +16,7 @@ import * as yup from 'yup';
 import { useFormik } from 'formik';
 import { useDispatch } from 'react-redux';
 import { setUser } from '../redux/action/userAction';
+import { Link } from 'react-router-dom';
 
 
 let schema = yup.object().shape({
@@ -90,6 +90,7 @@ export default function SignUp() {
             <Container component="main" maxWidth="xs">
                 <CssBaseline />
                 <div className={classes.paper}>
+                    <Link to='/' style={{ position: 'absolute', top: 0, right: 10, fontSize: '2rem' }}>&times;</Link>
                     <Typography component="h1" variant="h5">
                         Sign up
                     </Typography>
@@ -168,7 +169,7 @@ export default function SignUp() {
                         </Button>
                         <Grid container justifyContent="flex-end">
                             <Grid item>
-                                <Link href="#" variant="body2">
+                                <Link to='signin' variant="body2">
                                     Already have an account? Sign in
                                 </Link>
                             </Grid>

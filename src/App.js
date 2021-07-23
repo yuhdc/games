@@ -1,6 +1,5 @@
 import { Route, Switch } from "react-router-dom";
 import GlobalStyles from "./components/GlobalStyle";
-import Header from "./components/Header";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 

@@ -27,6 +27,7 @@ import SwiperCore, {
     Pagination, Navigation, EffectCoverflow
 } from 'swiper/core';
 import Loading from '../components/loading';
+import Header from '../components/Header';
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation, EffectCoverflow]);
 
@@ -51,7 +52,8 @@ function Home(props) {
     return (
         <>
             {
-                isloading ? <Loading /> :
+                isloading ? <Loading /> : <>
+                    <Header />
                     <GameList variants={fadeIn} initial="hidden" animate="show">
                         <AnimateSharedLayout type="crossfade">
                             <AnimatePresence>
@@ -135,8 +137,11 @@ function Home(props) {
                             </PopGames>
                         </AnimateSharedLayout>
                     </GameList >
+                    <Footer />
+
+                </>
             }
-            <Footer />
+
         </>
     );
 }
