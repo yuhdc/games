@@ -41,10 +41,10 @@ function SideNav() {
         <div>
             <div id="mySidenav" className="sidenav">
                 <span className="closebtn" onClick={() => closeNav()}>&times;</span>
-                <a href='/'>Home</a>
-                <a href='/' >Your Account</a>
-                <a href='/'>Favorite Games</a>
-                <a href='/'>Setting</a>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/' >Your Account</NavLink>
+                <NavLink to='/'>Favorite Games</NavLink>
+                <NavLink to='/'>Setting</NavLink>
             </div>
             {/* <img src={logo} alt="logo" /> */}
             <Logo className='btn' id='menu' onClick={openNav}><i className="uil uil-bars"></i></Logo>
