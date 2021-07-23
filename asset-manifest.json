@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7382abf7.chunk.css",
+    "main.js": "/static/js/main.c6218093.chunk.js",
+    "main.js.map": "/static/js/main.c6218093.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a34bfb4d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a34bfb4d.js.map",
+    "static/css/2.3b8127f4.chunk.css": "/static/css/2.3b8127f4.chunk.css",
+    "static/js/2.d984fa7a.chunk.js": "/static/js/2.d984fa7a.chunk.js",
+    "static/js/2.d984fa7a.chunk.js.map": "/static/js/2.d984fa7a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.3b8127f4.chunk.css.map": "/static/css/2.3b8127f4.chunk.css.map",
+    "static/css/main.7382abf7.chunk.css.map": "/static/css/main.7382abf7.chunk.css.map",
+    "static/js/2.d984fa7a.chunk.js.LICENSE.txt": "/static/js/2.d984fa7a.chunk.js.LICENSE.txt",
+    "static/media/apple.5757c37e.svg": "/static/media/apple.5757c37e.svg",
+    "static/media/gamepad.c9269ef5.svg": "/static/media/gamepad.c9269ef5.svg",
+    "static/media/new_signup_bg.8ad5b4ef.jpg": "/static/media/new_signup_bg.8ad5b4ef.jpg",
+    "static/media/nintendo.f579be04.svg": "/static/media/nintendo.f579be04.svg",
+    "static/media/playstation.18cc4b9c.svg": "/static/media/playstation.18cc4b9c.svg",
+    "static/media/sign_in_bg.15e73752.jpg": "/static/media/sign_in_bg.15e73752.jpg",
+    "static/media/steam.d7b8819f.svg": "/static/media/steam.d7b8819f.svg",
+    "static/media/xbox.3e7db735.svg": "/static/media/xbox.3e7db735.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a34bfb4d.js",
+    "static/css/2.3b8127f4.chunk.css",
+    "static/js/2.d984fa7a.chunk.js",
+    "static/css/main.7382abf7.chunk.css",
+    "static/js/main.c6218093.chunk.js"
+  ]
+}
