@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <GlobalStyles />
-      <Header />
       <Switch>
         <Route path="/signup" exact component={SignUp} />
         <Route path="/signin" exact component={SignIn} />

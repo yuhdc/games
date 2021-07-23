@@ -36,7 +36,7 @@ function Game({ name, released, image, slug, id }) {
                 <motion.h3 layoutId={`title ${stringPathId}`}>{name}</motion.h3>
                 <p>Released date: {released}</p>
                 <motion.img
-                    layoutId={`title ${stringPathId}`}
+                    layoutId={`image ${stringPathId}`}
                     src={smallImage(image, 640)} alt={slug} />
             </NavLink>
         </StyleGame >
