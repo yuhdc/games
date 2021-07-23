@@ -12,11 +12,11 @@ function App() {
       <GlobalStyles />
       <Header />
       <Switch>
-        <Route exact path={["/game/:id", "/"]}>
-          <Home id="main" />
-        </Route>
         <Route path="/signup" exact component={SignUp} />
         <Route path="/signin" exact component={SignIn} />
+        <Route path={["/game/:id", "/"]}>
+          <Home id="main" />
+        </Route>
       </Switch>
     </div>
   );
