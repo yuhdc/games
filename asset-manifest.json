@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/games/static/css/main.7382abf7.chunk.css",
-    "main.js": "/games/static/js/main.c72dea32.chunk.js",
-    "main.js.map": "/games/static/js/main.c72dea32.chunk.js.map",
+    "main.css": "/games/static/css/main.31f4ebe2.chunk.css",
+    "main.js": "/games/static/js/main.d3cb9be6.chunk.js",
+    "main.js.map": "/games/static/js/main.d3cb9be6.chunk.js.map",
     "runtime-main.js": "/games/static/js/runtime-main.1d7e7e23.js",
     "runtime-main.js.map": "/games/static/js/runtime-main.1d7e7e23.js.map",
     "static/css/2.3b8127f4.chunk.css": "/games/static/css/2.3b8127f4.chunk.css",
-    "static/js/2.4ddaddf7.chunk.js": "/games/static/js/2.4ddaddf7.chunk.js",
-    "static/js/2.4ddaddf7.chunk.js.map": "/games/static/js/2.4ddaddf7.chunk.js.map",
+    "static/js/2.a1a8641e.chunk.js": "/games/static/js/2.a1a8641e.chunk.js",
+    "static/js/2.a1a8641e.chunk.js.map": "/games/static/js/2.a1a8641e.chunk.js.map",
     "index.html": "/games/index.html",
     "static/css/2.3b8127f4.chunk.css.map": "/games/static/css/2.3b8127f4.chunk.css.map",
-    "static/css/main.7382abf7.chunk.css.map": "/games/static/css/main.7382abf7.chunk.css.map",
-    "static/js/2.4ddaddf7.chunk.js.LICENSE.txt": "/games/static/js/2.4ddaddf7.chunk.js.LICENSE.txt",
+    "static/css/main.31f4ebe2.chunk.css.map": "/games/static/css/main.31f4ebe2.chunk.css.map",
+    "static/js/2.a1a8641e.chunk.js.LICENSE.txt": "/games/static/js/2.a1a8641e.chunk.js.LICENSE.txt",
     "static/media/apple.5757c37e.svg": "/games/static/media/apple.5757c37e.svg",
     "static/media/gamepad.c9269ef5.svg": "/games/static/media/gamepad.c9269ef5.svg",
     "static/media/new_signup_bg.8ad5b4ef.jpg": "/games/static/media/new_signup_bg.8ad5b4ef.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.1d7e7e23.js",
     "static/css/2.3b8127f4.chunk.css",
-    "static/js/2.4ddaddf7.chunk.js",
-    "static/css/main.7382abf7.chunk.css",
-    "static/js/main.c72dea32.chunk.js"
+    "static/js/2.a1a8641e.chunk.js",
+    "static/css/main.31f4ebe2.chunk.css",
+    "static/js/main.d3cb9be6.chunk.js"
   ]
 }
